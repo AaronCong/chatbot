@@ -26,10 +26,13 @@
       },
       {
         "id": "restaurant_database",
-        "class_name": "sqlite_database",
+        "class_name": "persist.database:MysqlDatabase",
         "table_name": "mytable",
         "primary_keys": ["name"],
-        "save_path": "{DOWNLOADS_PATH}/dstc2/resto.sqlite"
+        "dbhost": "202.194.14.208",
+        "dbpass": "Irlab@2019",
+        "dbuser": "root",
+        "dbname": "chatbot"
       },
       {
         "class_name": "go_bot",
